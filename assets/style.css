@@ -85,13 +85,16 @@ footer{
 
 
 /* === MOBILE === */
-@media(max-width: 767px){
+@media(max-width: 769px){
+  section.sobre{ /*Espaçamento da section*/
+    padding-top: 80px;
+  }
   #icon{
     display: block;
   }
 
   header{
-    position: relative;
+    position: fixed;
   }
 
   nav ul{
